@@ -8,11 +8,11 @@ function calculate () {
   diameter = document.getElementById('diameter').value
   diameter = parseFloat(diameter / 2).toFixed(2)
   // Calculates for area
-  myarea = 0
+  area = 0
   area = (Math.PI * diameter ** 2)
   document.getElementById('myarea').innerHTML = area
   // Calculates for circumference
-  mycircumference = 0
+  circumference = 0
   circumference = (2 * Math.PI * diameter)
   document.getElementById('mycircumference').innerHTML = circumference
 }
